@@ -1,4 +1,4 @@
-steps=6
+steps=int(input())
 def numways(steps):
 	if steps==0 or steps==1:
 		return 1
